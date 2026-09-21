@@ -46,11 +46,11 @@ Cosign-signed, SLSA provenance, Trivy scanning, non-root (UID 1337), multi-arch 
 Management UI for caddy-waf. Go stdlib only, zero runtime dependencies.
 Centralized control plane for WAF rules, logs and threat visibility.
 
-### ⚙️ [Ironstack](https://github.com/Developmi/stack)
+### ⚙️ [Hardened](https://github.com/Developmi/hardened)
 Ansible framework for bare metal - NIST 800-53 aligned, Tailscale zero-trust mesh,
 CrowdSec, Vault-backed secrets, Molecule tested.
 
-### 📊 [Opentrack](https://github.com/Developmi/agency-analytics-kit)
+### 📊 [Multitenant ELT](https://github.com/Developmi/multitenant-elt)
 Sovereign ELT platform - dlt + dbt + ClickHouse + Metabase.
 Multi-tenant, RBAC-isolated, 93 automated quality tests in production.
 
