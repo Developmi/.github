@@ -6,7 +6,7 @@
 
 ## About
 
-**Developmi** is the personal engineering brand of **Miguel Lozano**.
+**Developmi** is the technical brand of **Miguel Lozano**, Infrastructure & DevSecOps Consultant.
 
 This organization hosts open-source projects focused on infrastructure engineering, networking, DevSecOps, cloud architecture, security automation, and self-hosted platforms.
 
@@ -17,7 +17,7 @@ The goal is simple:
 * Promote infrastructure sovereignty.
 * Contribute reusable open-source components.
 
-Projects here are production-tested. Not prototypes. Developmi is **not a company** and does **not** provide commercial support through this organization. Client-specific implementations, proprietary Infrastructure as Code, and consulting deliverables remain private.
+Each repository states its status and what was validated. Developmi is **not a company** and does **not** provide commercial support through this organization. Client-specific implementations, proprietary Infrastructure as Code, and consulting deliverables remain private.
 
 ---
 
@@ -30,9 +30,10 @@ Projects here are production-tested. Not prototypes. Developmi is **not a compan
 * 🏗️ Infrastructure as Code
 * 📦 Self-hosted Platforms
 * 📈 Observability
-* 🔐 Zero Trust
+* 🔐 Private Mesh Networking
 * 📚 NIST-aligned Hardening
 * 💾 Disaster Recovery
+* 💰 FinOps & Cost Efficiency
 
 ---
 
@@ -47,12 +48,17 @@ Management UI for caddy-waf. Go stdlib only, zero runtime dependencies.
 Centralized control plane for WAF rules, logs and threat visibility.
 
 ### ⚙️ [Hardened](https://github.com/Developmi/hardened)
-Ansible framework for bare metal - NIST 800-53 aligned, Tailscale zero-trust mesh,
-CrowdSec, Vault-backed secrets, Molecule tested.
+Ansible framework for bare metal on Debian 12 and Ubuntu 22.04 - mapped to NIST 800-53 and CIS,
+Tailscale private mesh, CrowdSec, SOPS + age secrets, Molecule tested.
+Validated in production on up to 2 Brain and 10 Muscle nodes across Oracle Cloud, AWS, Azure and GCP, on AMD64 and ARM64. A scale test to 3 Brain and 30 Muscle is in progress and not yet confirmed.
 
 ### 📊 [Multitenant ELT](https://github.com/Developmi/multitenant-elt)
-Sovereign ELT platform - dlt + dbt + ClickHouse + Metabase.
-Multi-tenant, RBAC-isolated, 93 automated quality tests in production.
+Multi-tenant ELT pipeline - dlt + dbt Core + PostgreSQL 16 + Metabase.
+10 platform connectors, per-tenant schema isolation, Pydantic contracts, 504 automated tests passing.
+
+### 🐾 [SOS Animales](https://github.com/Developmi/sos-animales)
+Open-data platform for animal welfare in Colombia - FastAPI + PostgreSQL 17 + Valkey + HTMX.
+Rootless container, rate limiting, 293 tests.
 
 ---
 
@@ -87,7 +93,7 @@ Commercial implementations, customer infrastructure, and proprietary automation 
 
 <p align="center">
   <strong>Developmi</strong><br>
-  Personal Engineering Brand by <strong>Miguel Lozano</strong><br><br>
+  Technical brand of <strong>Miguel Lozano</strong><br><br>
   <a href="https://developmi.com">
     <img src="https://img.shields.io/badge/Website-developmi.com-000000?style=flat-square&logo=safari&logoColor=white" alt="Website" />
   </a>
